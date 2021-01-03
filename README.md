@@ -6,3 +6,8 @@ Un générateur de mot de passe assez simple écrit en C++ // A simple password 
 ```bash
 g++ PasswordGenerator.cpp -o C++PasswordGenerator
 ```
+
+## Usage
+```bash
+./C++PasswordGenerator
+```
