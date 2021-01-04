@@ -17,13 +17,13 @@ int main()
 {
     int n;
     int mode;
-    cout << "Entrez la longeur du mot de passe : ";
+    cout << "Enter the password length : ";
     cin >> n;
-    cout << "Quel mode voulez-vous utiliser ? \n";
-    cout << "\n 1. Seulement des minuscules \n 2. Seulement des majuscules \n 3. Seulement des nombres \n 4. Tout \n";
+    cout << "What mode do you want to use ? \n";
+    cout << "\n 1. Lowercases only \n 2. Uppercases only \n 3. Numbers only \n 4. All of them including special characters \n";
     cin >> mode;
     srand(time(0));
-    cout << "Le mot de passe généré est : ";
+    cout << "The generated password is : ";
     if(mode == 1)
     {
       for(int i = 0; i < n ; i++)
