@@ -13,7 +13,7 @@ g++ PasswordGenerator.cpp -o C++PasswordGenerator
 ```
 
 ## Note
-You can change the 'C++PasswordGenerator to what you want but it will change the ./ <br>
+You can change the 'C++PasswordGenerator' to what you want but it will change the ./ <br>
 For example if you do :
 ```bash
 g++ PasswordGenerator.cpp -o banana
